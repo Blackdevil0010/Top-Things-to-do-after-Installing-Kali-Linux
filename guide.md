@@ -1,4 +1,4 @@
-# Top-Things-to-do-after-Installing-Kali-Linux
+#Top-Things-to-do-after-Installing-Kali-Linux
 _____________________________________________________________________________________________________________________________________________________________________
 
 
@@ -6,13 +6,13 @@ Installing Guake Terminal
 -------------------------
 To install Guake Terminal simply go:
 
-# sudo apt-get install guake
+in terminal  sudo apt get install guake
 
 Code language: JavaScript (javascript)
 Now we also want Guake to start automatically the next time we reboot our system, for that, we enter:
 
-#sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
-#sudo reboot now
+in terminal sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
+in terminal sudo reboot now
 _____________________________________________________________________________________________________________________________________________________________________
 
 Install your Favorite Code Editor
@@ -24,11 +24,11 @@ Code editor.  Choose the 64bit .deb package.
 Install Visual Studio Code
 First CD into your Downloads folder, or wherever you have downloaded the file to.
 
-#cd Downloads/
+in terminal  cd Downloads/
 
 Then we just install it using Apt.
 
-#sudo apt install ./code_yourversion_amd64.deb
+in terminal  sudo apt install ./code_yourversion_amd64.deb
 
 Starting Visual Studio Code
 And that’s it. Now you can already go ahead and start VSCode via the app menu.
@@ -38,9 +38,9 @@ Geany Code Editor
 ------------------
 
 Geany is a free, open-source, feature-rich, and highly customizable code editor. It can be used with various programming languages such as Python, HTML5, PHP,
-JAVA, JAVAscript, C#, C++, Ruby, Swift, Bash and many more.
+JAVA, JAVAscript, Cin terminal , C++, Ruby, Swift, Bash and many more.
 
-#sudo apt-get install geany
+in terminal  sudo apt-get install geany
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -64,13 +64,13 @@ After signing up with them, you have to download the NordVPN-Repository package.
 
 Once this is done we need to install it via Terminal:
 
-#sudo apt-get install /home/YourUsername/Downloads/nordvpn-release_1.0.0_all.deb
-#sudo apt-get update
+in terminal  sudo apt-get install /home/YourUsername/Downloads/nordvpn-release_1.0.0_all.deb
+in terminal  sudo apt-get update
 
 Code language: JavaScript (javascript)
 Top Things to do after installing Kali Linux
 
-#sudo apt-get install nordvpn -Y
+in terminal  sudo apt-get install nordvpn -Y
 
 Code language: JavaScript (javascript)
 To login you type:
@@ -97,7 +97,7 @@ calls on-the-fly, eliminating the performance and memory penalties of other meth
 
 To install wine type the following command in the Terminal.
 
-#sudo apt-get install wine
+in terminal sudo apt-get install wine
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -109,7 +109,7 @@ Terminator is the GNU terminal emulator, which provides several features that yo
 multiple terminal windows in one window and faster your work flow.
 Other than that, it allows you to change other properties such as fonts, fonts color and many more. It will be useful for any Hacker or prospective PenTester.
 
-#sudo apt-get install terminator
+in terminal sudo apt-get install terminator
 _____________________________________________________________________________________________________________________________________________________________________
 
 Katoolin
@@ -117,11 +117,11 @@ Katoolin
 
 Katoolin is a tool with which you can add and remove all the necessary Kali Linux repositories and as well as install Kali Linux tools.
 
-#sudo apt install git
-#sudo git clone https://github.com/LionSec/katoolin.git 
-#sudo cp katoolin/katoolin.py /usr/bin/katoolin
-#sudo chmod +x /usr/bin/katoolin
-#sudo katoolin
+in terminal sudo apt install git
+in terminal sudo git clone https://github.com/LionSec/katoolin.git 
+in terminal sudo cp katoolin/katoolin.py /usr/bin/katoolin
+in terminal sudo chmod +x /usr/bin/katoolin
+in terminal sudo katoolin
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -132,7 +132,7 @@ Kali comes with dpkg for package management but you could run into issues after 
 Although such issues are becoming less of a problem with workarounds like Snaps and Flatpak, most of the apps in the market are not available as sandboxed 
 packages and not all apps can be installed from the software center. It is therefore important to install GDebi.
 
-#sudo apt install gdebi
+in terminal sudo apt install gdebi
 _____________________________________________________________________________________________________________________________________________________________________
 
 Software Center
@@ -144,7 +144,7 @@ then you can skip this number but chances are you wouldn’t.
 freestar
 The good news is that you can install it using this simple command:
 
-#sudo apt install software-center
+in terminal sudo apt install software-center
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -153,7 +153,7 @@ Filezilla FTP Client
 If you have decided to run Kali Linux then you are likely to run some FTP-related tasks down the line and your workstation will not be complete without an 
 FTP client. My pick is Filezilla and you can install it with this simple command.
 
-#sudo apt install filezilla filezilla-common -y
+in terminal sudo apt install filezilla filezilla-common -y
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -163,8 +163,8 @@ Customization: Improve Kali Linux’s Look & Feel
 This one is a no-brainer. You need to be able to make your workstation look the way you want it to and for that, you need to install the gnome-tweaks tool, 
 which is a free desktop customization and settings manager for Gnome desktops.
 
-#sudo apt install gnome-tweaks
-#gnome-tweaks
+in terminal sudo apt install gnome-tweaks
+in terminal gnome-tweaks
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -172,7 +172,7 @@ htop
 ----
 This is an interactive process viewer and process manager tool, which will help you track all running background jobs and check the status of your CPU and GPU.
  
-#sudo apt install -y htop
+in terminal sudo apt install -y htop
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -180,9 +180,9 @@ gotop
 -----
 gotop is the terminal-based graphical activity monitor. To install it we will need to use third party repository,
 
-#sudo apt install -y golang
-#go get github.com/cjbassi/gotop
-#go run github.com/cjbassi/gotop
+in terminal sudo apt install -y golang
+in terminal go get github.com/cjbassi/gotop
+in terminal go run github.com/cjbassi/gotop
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -190,7 +190,7 @@ neofetch
 ---------
 neofetch is the command line system informational tool.
 
-#sudo apt install -y neofetch
+in terminal sudo apt install -y neofetch
 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -198,5 +198,5 @@ lolcat
 ------
 lolcat is the tool to give unique look to your terminal. Adds a stunning rainbow effect to its output.
 
-#sudo apt install -y lolcat
+in terminal sudo apt install -y lolcat
 _____________________________________________________________________________________________________________________________________________________________________
