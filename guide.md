@@ -118,10 +118,10 @@ Katoolin
 Katoolin is a tool with which you can add and remove all the necessary Kali Linux repositories and as well as install Kali Linux tools.
 
 in terminal sudo apt install git
-in terminal sudo git clone https://github.com/LionSec/katoolin.git 
-in terminal sudo cp katoolin/katoolin.py /usr/bin/katoolin
-in terminal sudo chmod +x /usr/bin/katoolin
-in terminal sudo katoolin
+ sudo git clone https://github.com/LionSec/katoolin.git 
+ sudo cp katoolin/katoolin.py /usr/bin/katoolin
+ sudo chmod +x /usr/bin/katoolin
+ sudo katoolin
 
 _____________________________________________________________________________________________________________________________________________________________________
 
